@@ -7,20 +7,26 @@ import imgboys from '../images/boy.jpeg'
             <div>
               <div class="container">
    <div class="contact-parent">
+   
       <div class="contact-child child1">
+      <h2 className="text">Contact Information</h2>
+      <p>
+          Fill up the form and our team will<br></br> get back to you within 24 hours
+         </p>
+
          <p>
-            <i class="fas fa-map-marker-alt"></i> Address <br />
+            <i class="fa fa-home" aria-hidden="true"></i> Address <br />
             <span> Ash Lane 110
             <br />
             London, UK
             </span>
          </p>
          <p>
-            <i class="fas fa-phone-alt"></i> Let's Talk <br />
+            <i class="fa fa-phone" aria-hidden="true"></i> Let's Talk <br />
             <span> 0787878787</span>
          </p>
          <p>
-            <i class=" far fa-envelope"></i> General Support <br />
+            <i class="fa fa-envelope" aria-hidden="true"></i> General Support <br />
             <span>contact@example.com</span>
          </p>
       </div>

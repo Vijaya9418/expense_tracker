@@ -11,3 +11,16 @@
     background-color: black;
     color: white;
 }
+.carousel-item
+{
+    filter: 50%;
+}
+.headd
+{
+   position: absolute;
+ top: 500px;
+   left: 500px;
+   color: white;
+  
+   
+}
