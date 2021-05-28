@@ -18,16 +18,21 @@ import "./home.css";
                    </ol>
                    <div class="carousel-inner customus" role="listbox">
                        <div class="carousel-item active  " >
-                           <h1 className="headd">Expense Tracker</h1>
+                           <h1 className="headd"><i  class="fa fa-bar-chart text-danger"></i> Expense Tracker </h1>
+                           <p className="headd2">We guarantee the worthiness of every money transaction</p>
                            <img style={{filter: 'brightness(70%)'}} src={Images} width="1465px" height="600px" alt="First slide">
                               
                            </img>
                           
                        </div>
                        <div class="carousel-item " >
+                       <h1 className="headd"><i class="fa fa-leaf  mb-3 text-danger"></i> Expense Tracker</h1>
+                       <p className="headd2">We make money work in your favour always </p>
                            <img style={{filter: 'brightness(70%)'}} src={Imagess} width="1465px" height="600px" alt="Second slide"></img>
                        </div>
                        <div class="carousel-item" >
+                       <h1 className="headd"><i  class="fa fa-bar-chart text-danger"></i> Expense Tracker</h1>
+                       <p className="headd2">Because managining your finances should not feel like a game of tetris</p>
                            <img style={{filter: 'brightness(70%)'}} src={Imagesss} width="1465px" height="600px" alt="Third slide"></img>
                        </div>
                        <button >Start</button>
